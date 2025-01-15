@@ -329,10 +329,6 @@ footer {
         width: 50px;
     }
 
-    .logo-img {
-        height: 40px; /* Slightly smaller on mobile */
-    }
-
     .slider-button {
         padding: 0.5rem;
         font-size: 1rem;
