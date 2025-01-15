@@ -320,10 +320,6 @@ footer {
         font-size: 2rem;
     }
 
-    .navbar {
-        padding: 1rem 0;  /* Slightly smaller padding on mobile */
-    }
-
     .slider-button {
         padding: 0.5rem;
         font-size: 1rem;
