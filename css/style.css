@@ -110,7 +110,6 @@ body {
     margin-bottom: 1rem;
 }
 
-/* Contact Form */
 .contact {
     padding: 4rem 0;
     background: #f4f4f4;
@@ -293,7 +292,6 @@ footer {
     background: white;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .hamburger {
         display: flex;
@@ -332,7 +330,7 @@ footer {
     }
 
     .logo-img {
-        height: 30px; /* Slightly smaller on mobile */
+        height: 40px; /* Slightly smaller on mobile */
     }
 
     .slider-button {
