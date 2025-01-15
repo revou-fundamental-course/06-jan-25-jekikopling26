@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Company Profile</title>
+    <title>Gugun Enterprise</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <nav class="navbar">
         <div class="container">
-            <div class="logo">CompanyName</div>
+            <div class="logo">
+                <img src="C:\Users\dzaky\Pictures\POTO AING.png" alt="Company Logo" class="logo-img">
+            </div>
             <ul class="nav-links">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="profile.html">Our Profile</a></li>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#profile">Our Profile</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="hamburger">
@@ -23,12 +25,58 @@
         </div>
     </nav>
 
-    <header class="hero">
+    <header class="hero" id="home">
         <div class="container">
             <h1 class="welcome-text">Hi <span id="visitor-name">Guest</span></h1>
-            <p>Welcome to Our Company</p>
+            <p>Welcome to Gugun Enterprise</p>
         </div>
     </header>
+
+    <section class="slider-section">
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">
+                    <img src="https://static.vecteezy.com/system/resources/previews/040/724/499/non_2x/ai-generated-modern-city-skyline-glows-at-sunset-with-tall-glass-skyscrapers-reflecting-warm-evening-light-free-photo.jpg" alt="Modern Office Building 1">
+                </div>
+                <div class="slide">
+                    <img src="https://static.vecteezy.com/system/resources/previews/040/722/075/non_2x/ai-generated-modern-office-building-reflecting-sky-and-surrounding-structures-captured-with-50mm-lens-emphasizing-geometric-facade-patterns-free-photo.jpg" alt="Modern Office Building 2">
+                </div>
+                <div class="slide">
+                    <img src="https://png.pngtree.com/background/20230527/original/pngtree-modern-office-building-rendering-in-realtime-picture-image_2757777.jpg" alt="Modern Office Building 3">
+                </div>
+            </div>
+            <button class="slider-button prev">&lt;</button>
+            <button class="slider-button next">&gt;</button>
+            <div class="slider-dots"></div>
+        </div>
+    </section>
+
+    <section id="profile" class="profile-section">
+
+        <div class="about">
+            <div class="container">
+                <h2>About Our Company</h2>
+                <p>Kami adalah perusahaan yang tersedia untuk membahagiakan anda semua</p>
+            </div>
+        </div>
+
+        <div class="vision-mission">
+            <div class="container">
+                <div class="vision">
+                    <h2>Our Vision</h2>
+                    <p>Foya</p>
+                </div>
+                <div class="mission">
+                    <h2>Our Mission</h2>
+                    <p>Foya</p>
+                </div>
+                <div class="vision-mission-combined">
+                    <h2>Our Vision and Mission</h2>
+                    <p>Foya Foya</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="contact" id="contact">
         <div class="container">
@@ -58,7 +106,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 CompanyName. All rights reserved.</p>
+            <p>&copy; 2025 Gugun Enterprise. All rights reserved.</p>
         </div>
     </footer>
 
